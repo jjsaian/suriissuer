@@ -1,0 +1,35 @@
+.navbar {
+  border-bottom: 1px solid #e7e7e7;
+  margin-bottom: 30px;
+
+  .user-logout {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.navbar-nav {
+  width: 100%;
+
+  .nav-link {
+    &.is-active {
+      color: rgb(255, 255, 255);
+      background-color: skyblue;
+    }
+  }
+}
+
+.logo {
+  &-icon {
+    max-width: 80px;
+  }
+
+  &-name {
+    max-width: 100px;
+  }
+}
+
+.bg-orange {
+  background-color: skyblue
+}
